@@ -12,6 +12,6 @@ This method uses a registry tweak to make the priority (Normal, High, Above Norm
 ## Disclaimer
 Editing the registry can affect your system. Do this carefully and at your own risk.
 
-Made with 💻 by **Lancer**
+Made with 💻 by **Lancer-GWL**
 
 
