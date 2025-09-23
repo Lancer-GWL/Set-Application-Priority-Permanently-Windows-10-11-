@@ -10,7 +10,7 @@ Normally, Task Manager priority resets after you close an app.
 This method uses a registry tweak to make the priority (Normal, High, Above Normal, etc.) stay permanent.
 
 ## Disclaimer
-Editing the registry can affect your system. Do this carefully and at your own risk.
+Do this carefully.
 
  **Lancer-GWL**
 
