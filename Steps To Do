@@ -1,0 +1,66 @@
+Set Application Priority Permanently (Windows 10/11)
+
+For more performance
+
+Step 1
+
+Go to Task Manager and look for the application or game.
+Shortcut key for opening Task Manager: Ctrl+Shift+Esc
+
+Step 2
+
+Right-click the app or game in Task Manager, then select Go to details. After that, again select the application or game,
+right-click on it, and go to Set priority.
+
+Step 3
+
+If we set it to Normal and then close the application, when we check again using the same steps (1–2),
+it will still be the same — you can see there is no change.
+
+Step 4
+
+On your keyboard, press the Windows key, search for Registry, and open Registry Editor.
+You’ll get a popup — click Yes.
+Then copy and paste this path:
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
+
+Step 5
+
+Right-click on Image File Execution Options, select New → Key.
+We need to rename this key. Before renaming, open the application you want to change.
+
+Then again, right-click the app or game in Task Manager, select Go to details, then right-click it again and choose Properties.
+Copy the app or game name from there.
+
+Step 6
+
+Go back to the Registry and rename the key we just created (right-click → Rename or press F2).
+Paste the exact name of the app or game that we copied.
+
+Step 7
+
+Right-click on the key, create a new key, and rename it PerfOptions.
+After creating it, select PerfOptions.
+
+Step 8
+
+Inside PerfOptions, right-click → New → DWORD (32-bit) Value.
+Rename it to CpuPriorityClass.
+
+Now double-click CpuPriorityClass, change the Base to Decimal,
+and set your preferred value as shown below:
+
+Value   Priority
+0       Idle
+256     Below Normal
+256     Normal (This will set it to Normal, as requested)
+32768   Above Normal
+131072  High
+20480   Real Time
+
+
+Click OK, go back, and reopen your application or game.
+After that, you can check again (Steps 1–2) the priority will now be changed permanently.
+
+✅ Enjoy — I have tested this and I am currently using it!
