@@ -1,4 +1,4 @@
-Set Application Priority Permanently (Windows 10/11)
+**Set Application Priority Permanently (Windows 10/11)**
 
 For more performance
 
@@ -51,18 +51,18 @@ Rename it to CpuPriorityClass.
 Now double-click CpuPriorityClass, change the Base to Decimal,
 and set your preferred value as shown below:
 
-🧠 Windows Process Priority Levels
+**🧠 Windows Process Priority Levels**
  
-Priority	     Decimal Value	         Description
+##Priority	     Decimal Value	         Description
 
-Realtime	      256	                  Highest possible — risky, can cause system instability
-High	          128	                  Great for gaming, boosts CPU scheduling for the game
-Above Normal	  32768	                Slightly higher than normal
-Normal         32                    Default
-Below Normal	  16384                 Lower than normal
-Low	64	Not recommended for games
+Realtime	      256	                  Highest possible risky, can cause system instability.
+High	          128	                  Great for gaming, boosts CPU scheduling for the game.
+Above Normal	  32768	                Slightly higher than normal.
+Normal         32                    Default.
+Below Normal	  16384                 Lower than normal.
+Low	64	Not recommended for games.##
 
 Click OK, go back, and reopen your application or game.
 After that, you can check again (Steps 1–2) the priority will now be changed permanently.
 
-✅ Enjoy — I have tested this and I am currently using it!
+✅ Enjoy — I have tested this and I am currently using it !
