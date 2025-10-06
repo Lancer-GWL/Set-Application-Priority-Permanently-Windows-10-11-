@@ -58,8 +58,8 @@ Priority	     Decimal Value	         Description
 Realtime	      256	                  Highest possible — risky, can cause system instability
 High	          128	                  Great for gaming, boosts CPU scheduling for the game
 Above Normal	  32768	                Slightly higher than normal
-Normal	        32	Default
-Below Normal	  16384	Lower than normal
+Normal	        32	                   Default
+Below Normal	  16384	                Lower than normal
 Low	64	Not recommended for games
 
 Click OK, go back, and reopen your application or game.
